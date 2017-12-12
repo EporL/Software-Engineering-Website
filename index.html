@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+  <div class="container">
+      <!--banner开始-->
+      <div class="banner">
+          <img src="img/banner.jpg" alt="东北林业大学信息与计算机工程学院软件工程专业">
+      </div>
+      <!--banner结束-->
+      <!--导航头部开始-->
+      <div class="header">
+          <div class="h-nav">
+              <div class="h-map">
+                  <a href="index.html" id="frist-nav">首页</a>
+                  <span>|</span>
+                  <a href="">专业新闻</a>
+                  <span>|</span>
+                  <span id="prof">专业概况
+                      <div id="prof-content">
+                          <ul class="prof-ul">
+                              <li class="id_li"><a href="html/Professional_introduction.html">专业简介</a></li>
+                              <li class="id_li"><a href="html/Professional_direction.html">方向简介</a></li>
+                              <li class="id_li"><a href="html/Professional_rules.html">招生简章</a></li>
+                          </ul>
+                      </div>
+                  </span>
+                  <span>|</span>
+                  <span span id="sky">学生天地
+                      <div id="sky-content">
+                          <ul class="sky-ul">
+                              <li class="id_li"><a href="html/Work_direction.html">就业指南</a></li>
+                              <li class="id_li"><a href="html/content.html">大赛报名</a></li>
+                              <li class="id_li"><a href="html/content.html">学生活动</a></li>
+                          </ul>
+                      </div>
+                  </span>
+                  <span>|</span>
+                  <span id="lab">实验室
+                      <div id="lab-content">
+                          <ul class="lab-ul">
+                              <li class="id_li"><a href="html/content.html">923 创新实验室</a></li>
+                              <li class="id_li"><a href="html/content.html">925 移动开发实验室</a></li>
+                              <li class="id_li"><a href="html/content.html">955 王波老师研究所</a></li>
+                          </ul>
+                      </div>
+                  </span>
+                  <span>|</span>
+                  <span id="teacher">师资队伍
+                      <div id="tec-content">
+                      <ul class="tec-ul">
+                          <li class="id_li"><a href="html/content.html">教授</a></li>
+                          <li class="id_li"><a href="html/content.html">副教授</a></li>
+                          <li class="id_li"><a href="html/content.html">讲师</a></li>
+                      </ul>
+              </div></span>
+                  <span>|</span>
+                  <span id="result">教学成果展示
+                      <div id="res-content">
+                      <ul class="res-ul">
+                          <li class="id_li"><a href="html/content.html">学术报告</a></li>
+                          <li class="id_li"><a href="html/content.html">竞赛获奖名单</a></li>
+                          <li class="id_li"><a href="html/content.html">科研实例展示</a></li>
+                      </ul>
+                     </div>
+                  </span>
+                  <span>|</span>
+                  <a href="">问题反馈</a>
+                  <span>|</span>
+              </div>
+              <div class="log-menu">
+                  <a href="html/login.html">登录</a>
+                  <span>|</span>
+                  <a href="" id="msg">消息通知
+                      <i class="iconfont icon-xiaoxi"></i>
+                      <div id="msg-content">
+                          <ul class="msg-ul">
+                              <li class="msg-li">考试通知:2017年12月6号...</li>
+                              <li class="msg-li">作业提醒:截至2017年12月1号...</li>
+                              <li class="msg-li">比赛通知:报名截止日期...</li>
+                          </ul>
+                      </div>
+                  </a>
+              </div>
+          </div>
+          <div class="h-span">
+              <div id="time"></div>
+              <div class="search">
+                  <input type="text" id="inputSearch" class="" value="请输入关键字" />
+                  <button type="submit" id="button-search" >
+                      <i class="iconfont icon-sousuo"></i>
+                  </button>
+                  <div id="keywords">
+                      <ul class="result-list">
+                          <li>
+                              <a href="html/content.html">
+                                  王波老师
+                              </a>
+                          </li>
+                          <li>
+                              <a href="html/content.html">
+                                  考研讲座
+                              </a>
+                          </li>
+                          <li>
+                              <a href="html/content.html">
+                                  最美专业老师
+                              </a>
+                          </li>
+                          <li>
+                              <a href="html/content.html">
+                                  javaweb大赛结果
+                              </a>
+                          </li>
+                          <li>
+                              <a href="html/content.html">
+                                  蓝桥杯比赛获奖名单
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--导航头部结束-->
+      <!--主体开始-->
+      <div id="content">
+          <!--专业新闻开始-->
+          <div id="jnStudyNews">
+              <div id="jnNews">
+                  <h2 title="专业新闻">专业新闻</h2>
+                  <ul>
+                      <li><a href="html/content.html" class="tooltip" title="[喜讯] 程序员节休假一天">[喜讯] 程序员节放假一天 <span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[活动] 与马云面对面">[活动] 与马云面对面<span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[通知]今年于12月25号放假">[通知] 今年于12月25号放假<span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[通知] 这一组实验是满分">[通知] 这一组实验是满分<span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[通知] [通知] 这一组实验是满分">[通知] 这一组实验是满分<span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[通知] [通知] 这一组实验是满分">[通知] 这一组实验是满分<span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[通知] [通知] 这一组实验是满分">[通知] 这一组实验是满分<span class="date">2017-11-27</span ></a></li>
+                  </ul>
+                  <br class="clear" />
+              </div>
+              <div id="jnStudy">
+                  <h2 title="学术报告">学术报告</h2>
+                  <ul>
+                      <li><a href="html/content.html" class="tooltip" title="[喜讯] 王波荣获十佳教师">[喜讯] 王波荣获十佳教师 <span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[活动] 与马云面对面">[活动] 与马云面对面<span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[通知] 这一组实验是满分">[通知] 这一组实验是满分<span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[通知] 以后所有考试都是开卷">[通知]以后所有考试都是开卷<span class="date">2017-11-27</span ></a></li>
+                  </ul>
+                  <br class="clear" />
+              </div>
+          </div>
+          <!--专业新闻结束-->
+          <!--轮播图开始-->
+          <div id="jnImageroll">
+              <a href="#nogo" id="JS_imgWrap">
+                  <img src="img/1.jpg" alt="东林冬景"/>
+                  <img src="img/6.jpg" alt="成栋雪景"/>
+                  <img src="img/3.jpg" alt="最帅专业老师"/>
+                  <img src="img/4.jpg" alt="软件专业"/>
+              </a>
+              <div>
+                  <a href="html/content.html">东林雪景</a>
+                  <a href="html/content.html">成栋雪景</a>
+                  <a href="html/content.html">十佳老师</a>
+                  <a href="html/content.html" class="last">软件专业</a>
+              </div>
+
+          </div>
+          <!--轮播图结束-->
+          <!--最新动态开始-->
+          <div id="jnNotice">
+              <div id="jnMiaosha">
+                  <a href="html/content.html" class="JS_css3"><img src="img/software.jpg" alt="成栋风情"  /></a>
+              </div>
+              <div id="jnNoticeInfo">
+                  <h2 title="最新动态">最新动态</h2>
+                  <ul>
+                      <li><a href="html/content.html" class="tooltip" title="[喜讯] 程序员节休假一天">[喜讯] 程序员节放假一天 <span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[活动] 与马云面对面">[活动] 与马云面对面<span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[通知]今年于12月25号放假">[通知] 今年于12月25号放假<span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[通知] 软件体系结构考试作废">[通知] 软件体系结构考试作废<span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[喜讯] 我专业王波老师荣获十佳教师荣誉称号">[喜讯] 王波老师荣获十佳教师<span class="date">2017-11-27</span ></a></li>
+                      <li><a href="html/content.html" class="tooltip" title="[通知] 以后所有考试都是开卷">[通知]以后所有考试都是开卷<span class="date">2017-11-27</span ></a></li>
+                  </ul>
+                  <br class="clear" />
+              </div>
+          </div>
+          <!--最新动态结束-->
+          <div id="school-msg">
+              <a href="#222"><img src="img/msg.jpg" alt=""></a>
+              <a href="#333"><img src="img/fwzx.jpg" alt=""></a>
+          </div>
+          <!--部门通知开始-->
+          <div id="jnSend">
+              <h2 title="专业通知">专业通知</h2>
+              <ul>
+                  <li><a href="###1" class="tooltip" title="[喜讯] 王波荣获十佳教师">[喜讯] 王波荣获十佳教师 <span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###2" class="tooltip" title="[活动] 与马云面对面">[活动] 与马云面对面<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###6" class="tooltip" title="[通知] 这一组实验是满分">[通知] 这一组实验是满分<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###6" class="tooltip" title="[通知] 以后所有考试都是开卷">[通知]以后所有考试都是开卷<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###1" class="tooltip" title="[喜讯] 王波荣获十佳教师">[喜讯] 王波荣获十佳教师 <span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###2" class="tooltip" title="[活动] 与马云面对面">[活动] 与马云面对面<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###6" class="tooltip" title="[通知] 这一组实验是满分">[通知] 这一组实验是满分<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###6" class="tooltip" title="[通知] 以后所有考试都是开卷">[通知]以后所有考试都是开卷<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###1" class="tooltip" title="[喜讯] 王波荣获十佳教师">[喜讯] 王波荣获十佳教师 <span class="date">2017-11-27</span ></a></li>
+              </ul>
+              <br class="clear" />
+          </div>
+          <!--部门通知结束-->
+          <!--学生天地开始-->
+          <div id="jnSky">
+              <h2 title="学生天地">学生天地</h2>
+              <ul>
+                  <li><a href="###1" class="tooltip" title="[喜讯] 王波荣获十佳教师">[喜讯] 王波荣获十佳教师 <span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###2" class="tooltip" title="[活动] 与马云面对面">[活动] 与马云面对面<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###6" class="tooltip" title="[通知] 这一组实验是满分">[通知] 这一组实验是满分<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###6" class="tooltip" title="[通知] 以后所有考试都是开卷">[通知]以后所有考试都是开卷<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###1" class="tooltip" title="[喜讯] 王波荣获十佳教师">[喜讯] 王波荣获十佳教师 <span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###2" class="tooltip" title="[活动] 与马云面对面">[活动] 与马云面对面<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###6" class="tooltip" title="[通知] 这一组实验是满分">[通知] 这一组实验是满分<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###6" class="tooltip" title="[通知] 以后所有考试都是开卷">[通知]以后所有考试都是开卷<span class="date">2017-11-27</span ></a></li>
+                  <li><a href="###1" class="tooltip" title="[喜讯] 王波荣获十佳教师">[喜讯] 王波荣获十佳教师 <span class="date">2017-11-27</span ></a></li>
+              </ul>
+              <br class="clear" />
+          </div>
+          <!--学生天地结束-->
+      </div>
+      <!--主体结束-->
+      <!--尾部开始-->
+      <div class="footer">
+          <div class="ver">版权所有 Copyright © 东北林业大学EproL所有&nbsp;&nbsp;&nbsp;地址:中国黑龙江省哈尔滨市香坊区</div>
+              <div class="ver">联系电话:8888888888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮政编码:101000</div>
+      </div>
+      <!--尾部结束-->
+  </div>
+</body>
+</html>

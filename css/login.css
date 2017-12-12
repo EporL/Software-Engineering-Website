@@ -1,0 +1,68 @@
+.container
+{
+    width: 800px;
+    margin: 50px auto 0px;
+}
+#login-style
+{
+    width: 800px;
+    height: 432px;
+    background: url("../img/login.gif");
+    position: relative;
+}
+.login-tip
+{
+    position:absolute;
+    left:47%;
+    top:70%;
+}
+.login-tip-content
+{
+   font-size:12px;
+    font-weight:bold;
+    height:25px;
+    line-height:25px;
+}
+.footer
+{
+    margin-top: 50px;
+    background: #FFFFFF;
+    border-top: 5px solid rgb(49,118,188);
+}
+#login
+{
+    width: 270px;
+    height: 150px;
+    font-size: 14px;
+    position: absolute;
+    top:150px;
+    left: 50px;
+}
+#username,#password
+{
+    height: 20px;
+    width: 150px;
+}
+#login .check-div
+{
+    height: 30px;
+    width: 260px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+#login-btn,#lookfor
+{
+    padding: 3px 10px;
+    font-weight: 700;
+    margin:6px 40px 0px 20px ;
+}
+.lab
+{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin: 3px;
+}

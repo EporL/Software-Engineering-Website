@@ -1,0 +1,59 @@
+#content
+{
+    background: url("../img/bg.jpg");
+}
+.a_content
+{
+    height: 55px;
+    border-bottom: 1px solid #424242;
+    text-align: right;
+}
+#content_title
+{
+    height: 1em;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+}
+#content_img
+{
+    width: 550px;
+    height: 428px;
+}
+.a_content span
+{
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+    color:#BABEBF ;
+    line-height: 25px;
+}
+#author
+{
+    margin-right: 15px;
+    padding-left: 0px;
+}
+#date
+{
+    margin-right: 10px;
+}
+.b_contnet
+{
+    text-align: center;
+}
+.aticle
+{
+    padding: 20px 150px 50px;
+}
+#aticle_img
+{
+    margin-top: 20px;
+}
+.b_contnet .aticle p
+{
+    text-align: left;
+    text-indent: 2em;
+    margin-top:10px;
+}
+
+

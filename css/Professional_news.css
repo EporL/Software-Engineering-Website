@@ -1,0 +1,50 @@
+div#content
+{
+  padding-bottom:50px ;
+}
+#content .a_list
+{
+    width: 750px;
+    margin: 0px auto;
+}
+#content li
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+#content .list_title
+{
+    height: 40px;
+    font-weight: 400;
+    color: #424242;
+    border-bottom: 1px solid #333333;
+}
+#content .describ
+{
+    display: block;
+    padding: 8px 8px 25px;
+    text-indent: 2em;
+    font-size: 16px;
+    color: #444444;
+    border-bottom: 1px solid #333333;
+}
+span.time
+{
+    position: absolute;
+    top:25px;
+    right: 5px;
+    color: #444444;
+    font-size: 12px;
+}
+span.more
+{
+    display: block;
+    padding: 1px 7px;
+    border: 1px solid #BABEBF;
+    position:absolute;
+    bottom: 3px;
+    right: 10px;
+    background: #00A5FF;
+    color: #FFFFFF;
+    font-size: 14px;
+}

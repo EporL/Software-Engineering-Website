@@ -1,0 +1,458 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li,a
+{
+    list-style: none;
+    text-decoration: none;
+}
+.container
+{
+    width: 993px;
+    height: 50px;
+    margin: 0px auto;
+}
+/*广告开始*/
+.banner
+{
+    width: 993px;
+    height: 201px;
+}
+/*广告结束*/
+/*导航开始*/
+.header
+{
+    box-shadow: 0 0 4px #888;
+}
+.h-nav
+{
+    background: #333;
+    position: relative;
+    color: #b0b0b0;
+    height: 40px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.h-nav a,.h-nav #prof,.h-nav #sky, .h-nav #lab,.h-nav #teacher,.h-nav #result {
+    color: #b0b0b0;
+    display: block;
+    float: left;
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 12px;
+}
+.h-nav span .id_li a
+{
+    padding: 0px;
+    margin: 0px ;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.h-nav span div li a
+{
+    color: #000;
+}
+#frist-nav
+{
+    margin-left: 20px;
+}
+.h-nav a:hover,.h-nav #prof:hover,.h-nav #sky:hover, .h-nav #lab:hover,.h-nav #teacher:hover,.h-nav #result:hover
+{
+    color: #ff6700;
+    background: #333333;
+}
+#msg:hover
+{
+    background: #ffffff;
+}
+.h-nav span{
+    float: left;
+    color:#424242;
+    margin: 0 6px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.h-map
+{
+    float: left;
+    left: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.h-nav #prof
+{
+    position: relative;
+}
+#prof-content
+{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -9px;
+    width: 74px;
+    height: 0px;
+    background: #ffffff;;
+    z-index: 5;
+    color: black;
+    box-shadow: 0 0 4px #888;
+    line-height: 25px;
+    overflow: hidden;
+}
+#prof-content li
+{
+    height: 25px;
+}
+#prof-content li:hover
+{
+    color: #ff6700;
+    background: #333333;
+}
+
+#prof:hover #prof-content
+{
+    display: block;
+    animation: run-prof 400ms ease-in 400ms forwards;
+}
+.h-nav #sky
+{
+    position: relative;
+}
+#sky-content
+{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -9px;
+    width: 74px;
+    height: 0px;
+    background: #ffffff;;
+    z-index: 5;
+    color: black;
+    box-shadow: 0 0 4px #888;
+    line-height: 25px;
+    overflow: hidden;
+}
+#sky-content li
+{
+    height: 25px;
+}
+#sky-content li:hover
+{
+    color: #ff6700;
+    background: #333333;
+}
+
+#sky:hover #sky-content
+{
+    display: block;
+    animation: run-prof 400ms ease-in 400ms forwards;
+}
+.h-nav #result
+{
+    position: relative;
+}
+#res-content
+{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -9px;
+    width: 100px;
+    height: 0px;
+    background: #ffffff;;
+    z-index: 5;
+    color: black;
+    box-shadow: 0 0 4px #888;
+    line-height: 25px;
+    overflow: hidden;
+}
+#res-content li
+{
+    height: 25px;
+}
+#res-content li:hover
+{
+    color: #ff6700;
+    background: #333333;
+}
+
+#result:hover #res-content
+{
+    display: block;
+    animation: run-prof 400ms ease-in 400ms forwards;
+}
+.h-nav #lab
+{
+    position: relative;
+}
+#lab-content
+{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -35px;
+    width: 120px;
+    height: 0px;
+    background: #ffffff;;
+    z-index: 5;
+    color: black;
+    box-shadow: 0 0 4px #888;
+    line-height: 25px;
+    overflow: hidden;
+}
+#lab-content li
+{
+    height: 25px;
+}
+#lab-content li:hover
+{
+    color: #ff6700;
+    background: #333333;
+}
+
+#lab:hover #lab-content
+{
+    display: block;
+    animation: run-prof 400ms ease-in 400ms forwards;
+}
+.h-nav #teacher
+{
+    position: relative;
+}
+#tec-content
+{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -35px;
+    width: 120px;
+    height: 0px;
+    background: #ffffff;;
+    z-index: 5;
+    color: black;
+    box-shadow: 0 0 4px #888;
+    line-height: 25px;
+    overflow: hidden;
+}
+#tec-content li
+{
+    height: 25px;
+}
+#tec-content li:hover
+{
+    color: #ff6700;
+    background: #333333;
+}
+
+#teacher:hover #tec-content
+{
+    display: block;
+    animation: run-prof 400ms ease-in 400ms forwards;
+}
+.log-menu
+{
+    float: right;
+}
+.h-nav #msg
+{
+    position: relative;
+    width: 120px;
+    padding: 0px;
+    text-align: center;
+    margin-right: 20px;
+}
+#msg-content
+{
+    display: none;
+    width: 200px;
+    height: 0px;
+    position: absolute;
+    top: 40px;
+    left: -100px;
+    padding: 5px 20px 0px;
+    z-index: 3;
+    box-shadow: 0 0 4px #888;
+    overflow: hidden;
+    background: #ffffff;
+}
+.msg-ul
+{
+    width: 180px;
+    height: 100px;
+}
+.msg-ul .msg-li
+{
+    height: 30px;
+    width: 180px;
+    color:#333333;
+    line-height: 30px;
+    text-align: center;
+}
+.msg-ul .msg-li:hover
+{
+    color: #ff6700;
+}
+#msg:hover #msg-content
+{
+    display: block;
+    animation: run-msg 400ms ease-in 400ms forwards;
+}
+@keyframes run-msg {
+    50%{
+        height: 50px;
+    }
+    100%
+    {
+        height: 100px;
+    }
+}
+@keyframes run-prof {
+    50%{
+        height: 30px;
+    }
+    100%
+    {
+        height: 85px;
+    }
+}
+/*d导航结束*/
+
+/*时间开始*/
+.h-span
+{
+    width: 100%;
+    height: 30px;
+    background: url("../img/bg.jpg");
+    position: relative;
+    margin-bottom: 1px;
+    padding-bottom: 2px;
+}
+#time
+{
+    margin-top: 5px;
+    width: 200px;
+    height: 25px;
+    font-size: 12px;
+    color: #424242;
+    line-height: 25px;
+    margin-left: 20px;
+    float: left;
+}
+/*时间结束*/
+
+/*搜索框开始*/
+.search
+{
+    right: 10px;
+    position: absolute;
+    top:5px;
+    margin: 1px 0px;
+}
+#inputSearch {
+    float: left;
+    border: 1px solid #BABEBF;
+    color: #999999;
+    font-size: 14px;
+    height: 12px;
+    padding: 3px 6px 5px 6px;
+    width: 150px;
+}
+#inputSearch.focus{
+    border: 1px solid #00A5FF;
+}
+.search #button-search
+{
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-left: -2px;
+}
+.search #button-search.focus
+{
+    border: 1px solid #00A5FF;
+}
+.search #button-search:hover
+{
+    background:#00A5FF;
+    color: white;
+}
+#keywords
+{
+    display: none;
+    position: absolute;
+    top: 22px;
+    height: 100px;
+    padding: 10px 0px;
+    width: 161px;
+    z-index: 2;
+    background: #ffffff;
+    border-left: 1px solid #00A5FF;
+    border-right: 1px solid #00A5FF;
+    border-bottom: 1px solid #00A5FF;
+}
+#keywords.focus
+{
+    display: block;
+}
+.result-list li
+{
+    height: 20px;
+}
+.result-list a
+{
+    display: block;
+    height: 14;
+    width: 131px;
+    padding: 3px 15px;
+    line-height: 14px;
+    color: #000000;
+    font-size: 12px;
+    z-index: 5;
+}
+.result-list li:hover
+{
+    background:#00A5FF;
+}
+div#keywords:hover
+{
+    display: block;
+}
+.result-list li:hover a
+{
+    color: white;
+}
+/*搜索框结束*/
+/*主体开始*/
+#content{
+
+    margin: 0 auto;
+    position: relative;
+    width: 993px;
+    overflow: hidden;
+    /*background: rgb(245, 245, 245);*/
+    background: url("../img/bg.jpg");
+    padding-top: 15px;
+}
+/*z主体结束*/
+/*footer开始*/
+.footer
+{
+    width: 100%;
+    height: 58px;
+    background: #333;
+}
+.footer .ver
+{
+    width: 100%;
+    height: 24px;
+    text-align: center;
+    line-height: 29px;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+/*footer结束*/

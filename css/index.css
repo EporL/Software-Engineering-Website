@@ -1,0 +1,233 @@
+/*主体开始*/
+/*学术，新闻报告开始*/
+#jnStudyNews
+{
+    width: 308px;
+    height: 320px;
+    margin-right: 11px;
+    float: left;
+}
+#jnNews {
+    float: left;
+    border: 1px solid #DFDFDF;
+    height: 170px;
+    padding: 5px 0px;
+    overflow: hidden;
+    width: 306px;
+    background: #FFFFFF;
+}
+#jnStudy
+{
+    float: left;
+    border: 1px solid #DFDFDF;
+    height: 112px;
+    overflow: hidden;
+    padding: 5px 0px;
+    width: 306px;
+    margin-top: 15px;
+    background: #FFFFFF;
+}
+#jnSend {
+
+    float: left;
+    border: 1px solid #DFDFDF;
+    height: 207px;
+    overflow: hidden;
+    padding: 5px 0px;
+    width: 361px;
+    margin-top: 15px;
+    margin-right: 11px;
+    background: #FFFFFF;
+}
+#jnSky
+{
+    float: left;
+    border: 1px solid #DFDFDF;
+    height: 207px;
+    overflow: hidden;
+    padding: 5px 0px;
+    width: 298px;
+    margin-top: 15px;
+    background: #FFFFFF;
+}
+#jnNews h2,#jnStudy h2,#jnSend h2,#jnSky h2 {
+    height: 23px;
+    line-height: 23px;
+    border-bottom: 1px solid #DFDFDF;
+    text-indent:12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+#jnNews ul,#jnStudy ul,#jnSend ul,#jnSky ul {
+    float: left;
+    padding: 6px 2px 0 12px;
+    width: 92%;
+}
+#jnNews li,#jnStudy li,#jnSend li,#jnSky li{
+    height: 20px;
+    line-height: 20px;
+    width:100% ;
+    overflow: hidden;
+    font-size: 12px;
+}
+#jnNews li a,#jnStudy li a,#jnSend li a,#jnSky li a{
+    color:#666666;
+}
+#jnNews li a:hover,#jnStudy li a:hover,#jnSend li a:hover,#jnSky li a:hover{
+    color: #008CD7;
+    text-decoration: none;
+}
+#jnNews li a .date,#jnStudy li a .date,#jnSend li a .date
+{
+    display: block;
+    float: right;
+}
+#school-msg
+{
+    float: left;
+    height: 235px;
+    width: 298px;
+    margin-top: 15px;
+    padding: 5px;
+    margin-right: 11px;
+}
+#school-msg img
+{
+    display: block;
+    width: 90%;
+    height: 28%;
+    margin: 0 auto;
+}
+/*学术专业新闻结束*/
+/*轮播图开始*/
+#jnImageroll {
+    float: left;
+    height: 320px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 363px;
+}
+#jnImageroll img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+#jnImageroll div {
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+}
+#jnImageroll div a {
+    background-color: #444444;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 32px;
+    margin-right: 1px;
+    overflow: hidden;
+    padding: 5px 15px;
+    text-align: center;
+    width: 60px;
+    font-size: 12px;
+    line-height: 32px;
+}
+#jnImageroll div a:hover {
+    text-decoration: none;
+}
+#jnImageroll .last {
+    margin: 0;
+    width: 60px;
+}
+#jnImageroll a.chos {
+    background: url("../img/adindex.gif") no-repeat center 39px #37A7D7;
+    color: #FFFFFF;
+}
+/*轮播图结束*/
+/*最新动态开始*/
+#jnNotice{
+    float: right;
+    height: 321px;
+    overflow: hidden;
+    width: 300px;
+}
+#jnMiaosha {
+    float: left;
+    height: 176px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 300px;
+}
+.JS_css3 img
+{
+    width: 300px;
+    height: 175px;
+}
+.JS_css3 img {
+    -webkit-transition:1s all;
+    -moz-transition:1s all;
+    -o-transition:1s all;
+    transition:1s all;
+}
+.JS_css3:hover img {
+    -webkit-transform:rotate(720deg);
+    -moz-transform:rotate(720deg);
+    -o-transform:rotate(720deg);
+    transform:rotate(720deg);
+}
+#jnNoticeInfo {
+    float: left;
+    border: 1px solid #DFDFDF;
+    height: 133px;
+    overflow: hidden;
+    width: 298px;
+    background: #FFFFFF;
+}
+#jnNoticeInfo h2 {
+    height: 23px;
+    line-height: 23px;
+    border-bottom: 1px solid #DFDFDF;
+    text-indent:12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+#jnNoticeInfo ul {
+    float: left;
+    padding: 6px 2px 0 12px;
+    width: 92%;
+}
+#jnNoticeInfo li {
+    height: 20px;
+    line-height: 20px;
+    width:100% ;
+    overflow: hidden;
+    font-size: 12px;
+}
+#jnNoticeInfo li a{
+    color:#666666;
+}
+#tooltip{
+    position:absolute;
+    border:1px solid #333;
+    background:#f7f5d1;
+    padding:1px;
+    color:#333;
+    display:none;
+    font-size: 12px;
+}
+#jnNoticeInfo li a:hover{
+    color: #008CD7;
+    text-decoration: none;
+}
+#jnNoticeInfo li a .date
+{
+    display: block;
+    float: right;
+}
+/*最新动态结束*/
+/*主体结束*/
+
