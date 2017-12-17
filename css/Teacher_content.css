@@ -7,7 +7,7 @@ div#school-msg{
     top:320px;
     left:0;
 }
-div.professional{
+div.teacher{
     width:685px;
     padding-top:20px;
     padding-left:10px;
@@ -15,18 +15,23 @@ div.professional{
     right:0;
     font-weight:lighter;
 }
-.professional img
+.teacher img
 {
-    width: 440px;
-    height: 248px;
-    margin-top: 20px;
+    width: 225px;
+    height: 315px;
+    margin: 20px 20px;
+    float: left;
 }
-.professional h2
+.teacher h2
 {
     font-weight: 600;
     text-align: center;
     height: 50px;
     line-height: 50px;
+}
+.teacher h3
+{
+    display: inline;
 }
 div#jnNotice
 {
@@ -38,8 +43,8 @@ div#jnNotice
 }
 .professional  p
 {
+    float: left;
     text-align: left;
-    text-indent: 2em;
     margin-top:10px;
 }
 

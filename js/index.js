@@ -112,6 +112,49 @@ function showImg(index){
         .find("img").eq(index).stop(true,true).fadeIn().siblings().fadeOut();
     $rolllist.removeClass("chos").css("opacity","0.7")
         .eq(index).addClass("chos").css("opacity","1");
-}
-;
+};
+/*点击事件*/
+$(function () {
+    var flag=true;
+   $('#touxiang').click(function () {
+       if(flag){
+       $('.icon-icon8').css('color','#ff6700');
+       $('#tx_fix').css('display','block');
+       flag=false;
+       }
+       else {
+           $('.icon-icon8').css('color','#BABEBF');
+           $('#tx_fix').css('display','none');
+           flag=true;
+       }
+   });
+});
+/*文章管理中的点击事件*/
+$(function () {
+    var flag=true;
+   $('#add').click(function () {
+       if(flag)
+       {
+           $('#btn').removeClass('icon-iconjia').addClass('icon-sub');
+           $('.add_content').css('display','block');
+           flag=false;
+       }
+       else
+       {
+           $('#btn-').removeClass('icon-sub').addClass('icon-iconjia');
+           $('.add_content').css('display','none');
+           flag=true;
+       }
+   });
+   $('.add_content li').click(function () {
+      $(this).addClass('selected').siblings().removeClass('selected');
+      var t=$(this).index();
+      var s='.div'+t;
+      $(s).addClass('selected').siblings().removeClass('selected');
+   });
+   $('#button-search').click(function () {
+      $('#search_result') .addClass('selected').siblings().removeClass('selected');
+   });
+});
+
 

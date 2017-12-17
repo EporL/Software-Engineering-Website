@@ -1,0 +1,30 @@
+fieldset
+{
+    width: 550px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 10px;
+}
+legend
+{
+    font-size: 24px;
+}
+textarea
+{
+    width: 350px;
+    height: 200px;
+}
+th,td
+{
+    display: inline-block;
+    padding: 10px;
+}
+#btn
+{
+    display: block;
+}
+#btn button
+{
+    width: 60px;
+    height: 30px;
+}

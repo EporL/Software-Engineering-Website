@@ -48,3 +48,7 @@ span.more
     color: #FFFFFF;
     font-size: 14px;
 }
+span.more:hover
+{
+    background: #ff6700;
+}

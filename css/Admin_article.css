@@ -1,0 +1,161 @@
+#content
+{
+    height: 600px;
+}
+.guide
+{
+    position: relative;
+    width: 933px;
+    margin: 20px auto;
+}
+#side
+{
+    float: left;
+    margin-top: 15px;
+}
+#add,#search
+{
+    width: 190px;
+    position: relative;
+    background:#00A5FF;
+    margin-top: 3px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#add
+{
+    color: #FFFFFF;
+    height: 20px;
+}
+#add i
+{
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    right: 10px;
+    line-height: 20px;
+}
+#add .add_content
+{
+    position: absolute;
+    top: 31px;
+    left: 0px;
+}
+.add_content
+{
+    display: none;
+}
+.add_content li
+{
+    width: 185px;
+    padding: 5px;
+    color: black;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 1px solid #00A5FF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#guide-content div
+{
+    display: none;
+}
+#guide-content div.selected
+{
+    display: block;
+}
+.add_content li.selected
+{
+    background: #00A5FF;
+    color: #FFFFFF;
+}
+#guide-content
+{
+    float: left;
+    margin-left: 30px;
+}
+ .title
+{
+    font-weight: 400;
+    height: 50px;
+    line-height: 50px;
+}
+#guide-result
+{
+    width: 600px;
+    padding: 10px 20px;
+    background: blanchedalmond;
+    border-collapse: collapse;
+}
+#guide-result tr
+{
+    height: 30px;
+    text-align: center;
+    background: rgb(237,248,254);
+}
+#guide-result #first
+{
+    background: #00A5FF;
+    height: 30px;
+    border-radius: 30px;
+    color:#FFFFFF;
+}
+#guide-result .td1
+{
+    width: 30px;
+}
+#guide-result .td2
+{
+    width: 200px;
+}
+#guide-result .td3
+{
+    width: 100px;
+}
+#guide-result .td4
+{
+    width: 60px;
+    text-align: center;
+}
+#guide-result i:hover
+{
+    color: #37A7D7;
+}
+.zz fieldset
+{
+    width: 550px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 10px;
+}
+.zz legend
+{
+    font-size: 24px;
+}
+.zz textarea
+{
+    width: 350px;
+    height: 200px;
+}
+.zz th,.zz td
+{
+    display: inline-block;
+    padding: 10px;
+}
+#btn
+{
+    display: block;
+}
+#btn button
+{
+    width: 60px;
+    height: 30px;
+}
+#input
+{
+    height: 25px;
+    width: 320px;
+}

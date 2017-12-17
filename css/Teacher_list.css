@@ -1,0 +1,84 @@
+#fix
+{
+    float: left;
+    overflow: hidden;
+}
+
+div#school-msg
+{
+    clear: left;
+    margin-top: 50px;
+}
+div#jnNotice
+{
+    float: left;
+}
+.teacher
+{
+    width: 658px;
+    height: 658px;
+    margin-right: 14px;
+    float: right;
+}
+.box-hd
+{
+    height: 50px;
+}
+.box-hd h2
+{
+    font-weight: 200;
+    border-bottom: 1px solid #000000;
+}
+.box-body
+{
+    width: 100%;
+    height: 554px;
+}
+.span-nine
+{
+    width: 670px;
+    height:668px;
+}
+.span-nine-li
+{
+    position: relative;
+    width: 206px;
+    height: 256px;
+    padding-top: 14px;
+    background: #FFFFFF;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+.span-nine-li-img
+{
+    text-align: center;
+}
+.span-nine-li-img img
+{
+    width: 110px;
+    height: 138px;
+}
+.span-nine-li  h3
+{
+    text-align: center ;
+}
+.span-nine-li  h3 a
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: #444444;
+}
+.desc
+{
+    padding: 5px;
+    font-size: 12px;
+    text-indent: 2em;
+}
+.span-nine-li:hover
+{
+    top: -5px;
+    box-shadow: 0 0 5px #333;
+}
+
+

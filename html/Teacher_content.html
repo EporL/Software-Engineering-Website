@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>内容页</title>
+    <title>老师详细资料</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/iconfont.css">
-    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/Teacher_content.css">
     <script src="../js/jquery-1.12.4.js"></script>
     <script src="../js/index.js"></script>
 </head>
@@ -15,7 +16,6 @@
     <div class="banner">
         <img src="../img/banner.jpg" alt="东北林业大学信息与计算机工程学院软件工程专业">
     </div>
-    <!--banner结束-->
     <!--导航头部开始-->
     <div class="header">
         <div class="h-nav">
@@ -154,24 +154,37 @@
         </div>
     </div>
     <!--导航头部结束-->
+    <!--主体开始-->
     <div id="content">
-        <div class="a_content">
-            <h2 id="content_title">我专业王波老师，人工智能课题研究取得重大突破</h2>
-            <span>作者:</span><span id="author">张狗蛋</span>
-            <span id="date">2017.03.05</span>
+        <div id="jnNotice">
+            <div id="jnMiaosha">
+                <a href="html/content.html" class="JS_css3"><img src="../img/software.jpg" alt="成栋风情"/></a>
+            </div>
+            <div id="jnNoticeInfo">
+                <h2 title="最新动态">最新动态</h2>
+                <ul>
+                    <li><a href="content.html" class="tooltip" title="[喜讯] 程序员节休假一天">[喜讯] 程序员节放假一天 <span class="date">2017-11-27</span ></a></li>
+                    <li><a href="content.html" class="tooltip" title="[活动] 与马云面对面">[活动] 与马云面对面<span class="date">2017-11-27</span ></a></li>
+                    <li><a href="content.html" class="tooltip" title="[通知]今年于12月25号放假">[通知] 今年于12月25号放假<span class="date">2017-11-27</span ></a></li>
+                    <li><a href="content.html" class="tooltip" title="[通知] 软件体系结构考试作废">[通知] 软件体系结构考试作废<span class="date">2017-11-27</span ></a></li>
+                    <li><a href="content.html" class="tooltip" title="[喜讯] 我专业王波老师荣获十佳教师荣誉称号">[喜讯] 王波老师荣获十佳教师<span class="date">2017-11-27</span ></a></li>
+                    <li><a href="content.html" class="tooltip" title="[通知] 以后所有考试都是开卷">[通知]以后所有考试都是开卷<span class="date">2017-11-27</span ></a></li>
+                </ul>
+                <br class="clear" />
+            </div>
         </div>
-        <div class="b_contnet">
-            <img src="../img/1.jpg" alt="" id="aticle_img">
-            <div class="aticle">
-                <p>11月29日下午，李顺龙副校长为信息与计算机工程学院全体党员上了一堂生动的主题党课,党课由计算机科学与技术系党支部书记李林辉主持。</p>
-                <p>李顺龙副校长以《新时代生态文明观与低碳发展——建设生态文明，共创美丽中国》为题，解读了十九大报告内容，通过对十九大报告中关于“生态文明”“美丽”“绿色”的阐述，明确了建设生态文明，共创美丽中国的主题。</p>
-                <p>李顺龙副校长认真践行新时代生态文明观、人类社会面临的最艰难课题、实现可持续发展的必经之路、中国已启动低碳发展新模式、注重林业对低碳发展的贡献五个方面，阐述了新时代生态文明观的必要性、全球气候变化严重性、低碳发展对于解决气候变化问题的重要性、我国对低碳发展新模式的探索和努力以及林业在低碳发展的重要作用。</p>
-                <p>李顺龙副校长强调，要建设美丽中国，发展低碳经济是一个重要举措，应建立健全低碳循环发展的经济体系，倡导广大党员采取简约适度、绿色低碳的生活方式，反对奢侈浪费和不合理消费。李顺龙副校长指出，生态文明建设功在当代、利在千秋，我们要牢固树立社会主义生态文明观，推动形成人与自然和谐发展的现代化建设新格局，要结合学校特色为保护生态环境做出贡献。</p>
-                <p>李顺龙副校长用通俗易懂的语言、引人入胜的案例，深入浅出地讲述了“新时代生态文明观与低碳发展”的密切关系，为广大党员构建富强民主和谐美丽中国指明了努力方向。</p>
-            </div>
-            <div class="aticle_msg">
-
-            </div>
+        <div id="school-msg">
+            <a href="#222"><img src="../img/msg.jpg" alt=""></a>
+            <a href="#333"><img src="../img/fwzx.jpg" alt=""></a>
+        </div>
+        <!--          专业介绍-->
+        <div class="teacher">
+            <h2>个人资料</h2>
+            <img src="../img/1.jpg" alt="">
+            <p style="margin-top: 20px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;王波老师软件工程专业以IT业需求为导向，培养具有良好综合素质和职业道德，掌握扎实的基础理论和专业知识，具有软件分析、设计、开发、测试与管理能力，具备较强工程实践能力、技术创新能力和团队精神，能快速适应软件工程新技术发展并具有国际视野和国际竞争力的高级软件工程师。专业实施灵活的“211”人才培养模式（其中,2年基础教育,1年面向企业的专业教育,1年企业岗位实习），在教学上着力推动基于问题、基于项目和基于案例的学习，对于实践性强的课程，采取校企联合“双师制”培养，同时以大学生创新实践活动、科技大赛为补充，突出工程化培养。</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教师队伍采用专兼结合的用人机制，现有专职教师11人，其中高级职称6人，讲师5人，博士及在读博士7人，硕士4人，其中5人具有国外留学或访学经历，此外,专业还从国内外软件企业、高校聘请兼职教师承担部分教学工作作为补充。专业教师主持或参加了多项国家、省、部、市及学校的纵向、横向科研和教研项目。获得省优秀教育科研成果奖一等奖、省优秀高等教育科学研究成果二等奖、省科技进步二等奖、三等奖、省高等学校优秀多媒体教学软件三等奖、市科技进步一等奖、省高等教育学会十一五规划课题三等奖等奖项。取得发明专利和实用新型专利8项，软件著作权10余项。累计主编和参编出版教材8部，发表论文50余篇，其中EI及ISTP检索论文30余篇。</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;软件工程专业综合实验室，服务于专业的课程实验，培养学生获得软件项目管理和开发经验，完成系统开发的实习、实训。软件工程专业综合实验室下设软件工程实验室（系统开发实训基地）、嵌入式技术实验室、移动开发实验室和IOS开发实验室。主要完成基于行业标准和技术的Rational统一过程和测试、软件体系结构、面向对象技术与UML、软件需求与分析、软件测试和质量保证、移动开发和IOS开发等课程的实验。同时，依托国家级大型软件企业，建立了校企合作的实习、实训基地。利用企业项目对学生进行有针对性的能力培训，让学生综合运用所学知识，培养其独立分析、解决实际问题的能力。</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专业目前已经建立了沈阳东软、亿阳信通股份有限公司、中关村软件园、大连软件信息产业园等实习基地。</p>
         </div>
     </div>
     <!--尾部开始-->
